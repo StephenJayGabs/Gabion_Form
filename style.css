@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: skyblue;
+}
+.login{
+    width: 350px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+}
+.sign-up{
+    width: 350px;
+    padding: 1rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+}
+
+.form-control{
+    width: 350px;
+    padding: 1rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+}
+h1{
+    font-size: 2rem;
+    color: skyblue;
+    margin-bottom: 1rem;
+}
+
+form input{
+    width: 250px;
+    outline: none;
+    border: 1px solid skyblue;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: aliceblue;
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: blue;
+    cursor: pointer;
+    background: skyblue;
+}
+
+button:hover{
+    background: aliceblue;
+}
+
+input:focus{
+    border: 1px solid whitesmoke;
+}
+.terms{
+    margin-top: rem;
+}
+
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}    
+.terms label{
+    font-size: 0.5rem;
+}
+.member{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    color: burlywood;
+}
+
+.member a{
+    color:aqua;
+    text-decoration: none;
+}
+
+.recover{
+    text-align: middle;
+    font-size: 0.5rem;
+    margin: 0.5rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: antiquewhite;
+}
